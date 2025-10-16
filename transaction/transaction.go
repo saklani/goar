@@ -19,9 +19,9 @@ package transaction
 import (
 	"errors"
 
-	"github.com/liteseed/goar/crypto"
-	"github.com/liteseed/goar/signer"
-	"github.com/liteseed/goar/tag"
+	"github.com/saklani/goar/crypto"
+	"github.com/saklani/goar/signer"
+	"github.com/saklani/goar/tag"
 )
 
 // New creates a new Arweave transaction with the provided data and metadata.

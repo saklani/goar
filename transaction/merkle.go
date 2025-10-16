@@ -5,7 +5,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/liteseed/goar/crypto"
+	"github.com/saklani/goar/crypto"
 )
 
 // ValidatePathResult contains the result of validating a Merkle path.

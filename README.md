@@ -15,7 +15,7 @@ A Go library for interacting with the Arweave blockchain. Goar provides a comple
 ## Install
 
 ```bash
-go get github.com/liteseed/goar
+go get github.com/saklani/goar
 ```
 
 ## Quick Start
@@ -27,9 +27,9 @@ package main
 
 import (
     "fmt"
-    "github.com/liteseed/goar/transaction"
-    "github.com/liteseed/goar/wallet"
-    "github.com/liteseed/goar/tag"
+    "github.com/saklani/goar/transaction"
+    "github.com/saklani/goar/wallet"
+    "github.com/saklani/goar/tag"
 )
 
 func main() {
@@ -66,8 +66,8 @@ func main() {
 package main
 
 import (
-    "github.com/liteseed/goar/client"
-    "github.com/liteseed/goar/uploader"
+    "github.com/saklani/goar/client"
+    "github.com/saklani/goar/uploader"
 )
 
 func main() {

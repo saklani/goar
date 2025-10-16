@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/liteseed/goar/crypto"
-	"github.com/liteseed/goar/tag"
+	"github.com/saklani/goar/crypto"
+	"github.com/saklani/goar/tag"
 )
 
 // Chunk represents a single chunk of data in an Arweave transaction's Merkle tree.

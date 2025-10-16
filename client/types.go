@@ -1,6 +1,6 @@
 package client
 
-import "github.com/liteseed/goar/tag"
+import "github.com/saklani/goar/tag"
 
 // Block represents a block in the Arweave blockchain.
 //

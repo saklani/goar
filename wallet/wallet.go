@@ -28,13 +28,13 @@ import (
 	"errors"
 	"os"
 
-	"github.com/liteseed/goar/client"
-	"github.com/liteseed/goar/signer"
-	"github.com/liteseed/goar/tag"
-	"github.com/liteseed/goar/transaction"
-	"github.com/liteseed/goar/transaction/bundle"
-	"github.com/liteseed/goar/transaction/data_item"
-	"github.com/liteseed/goar/uploader"
+	"github.com/saklani/goar/client"
+	"github.com/saklani/goar/signer"
+	"github.com/saklani/goar/tag"
+	"github.com/saklani/goar/transaction"
+	"github.com/saklani/goar/transaction/bundle"
+	"github.com/saklani/goar/transaction/data_item"
+	"github.com/saklani/goar/uploader"
 )
 
 // Wallet represents an Arweave wallet with signing and network capabilities.

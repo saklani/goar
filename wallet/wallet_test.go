@@ -3,8 +3,8 @@ package wallet
 import (
 	"testing"
 
-	"github.com/liteseed/goar/client"
-	"github.com/liteseed/goar/transaction"
+	"github.com/saklani/goar/client"
+	"github.com/saklani/goar/transaction"
 	"github.com/stretchr/testify/assert"
 )
 

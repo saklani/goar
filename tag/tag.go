@@ -27,7 +27,7 @@ import (
 	"errors"
 
 	"github.com/linkedin/goavro/v2"
-	"github.com/liteseed/goar/crypto"
+	"github.com/saklani/goar/crypto"
 )
 
 // avroTagSchema defines the Apache Avro schema for encoding tags.

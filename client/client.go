@@ -32,7 +32,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/liteseed/goar/transaction"
+	"github.com/saklani/goar/transaction"
 )
 
 // Client represents an HTTP client for communicating with Arweave nodes.

@@ -1,4 +1,4 @@
-module github.com/liteseed/goar
+module github.com/saklani/goar
 
 go 1.22.1
 

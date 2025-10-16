@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/liteseed/goar/crypto"
-	"github.com/liteseed/goar/tag"
+	"github.com/saklani/goar/crypto"
+	"github.com/saklani/goar/tag"
 )
 
 const (

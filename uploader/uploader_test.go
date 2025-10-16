@@ -4,9 +4,9 @@ package uploader
 import (
 	"testing"
 
-	"github.com/liteseed/goar/client"
-	"github.com/liteseed/goar/signer"
-	"github.com/liteseed/goar/transaction"
+	"github.com/saklani/goar/client"
+	"github.com/saklani/goar/signer"
+	"github.com/saklani/goar/transaction"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

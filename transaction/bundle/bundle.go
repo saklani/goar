@@ -3,8 +3,8 @@ package bundle
 import (
 	"errors"
 
-	"github.com/liteseed/goar/crypto"
-	"github.com/liteseed/goar/transaction/data_item"
+	"github.com/saklani/goar/crypto"
+	"github.com/saklani/goar/transaction/data_item"
 )
 
 // New Create a data bundle from a group of data items

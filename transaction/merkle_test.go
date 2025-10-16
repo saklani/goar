@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/liteseed/goar/crypto"
+	"github.com/saklani/goar/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

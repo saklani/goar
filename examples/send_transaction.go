@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/liteseed/goar/wallet"
+	"github.com/saklani/goar/wallet"
 )
 
 func SendTransaction() {

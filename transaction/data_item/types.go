@@ -1,6 +1,6 @@
 package data_item
 
-import "github.com/liteseed/goar/tag"
+import "github.com/saklani/goar/tag"
 
 type DataItem struct {
 	ID            string     `json:"id"`

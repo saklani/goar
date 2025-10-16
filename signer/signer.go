@@ -30,7 +30,7 @@ import (
 	"os"
 
 	"github.com/everFinance/gojwk"
-	"github.com/liteseed/goar/crypto"
+	"github.com/saklani/goar/crypto"
 )
 
 // Signer represents an Arweave wallet signer with RSA key pair.

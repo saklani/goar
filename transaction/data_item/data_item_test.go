@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/liteseed/goar/signer"
-	"github.com/liteseed/goar/tag"
+	"github.com/saklani/goar/signer"
+	"github.com/saklani/goar/tag"
 	"github.com/stretchr/testify/assert"
 )
 

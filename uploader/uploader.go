@@ -36,8 +36,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/liteseed/goar/client"
-	"github.com/liteseed/goar/transaction"
+	"github.com/saklani/goar/client"
+	"github.com/saklani/goar/transaction"
 )
 
 // Upload configuration constants
