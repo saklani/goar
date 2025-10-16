@@ -57,6 +57,7 @@ func createTransaction(t *testing.T, c *Client) *transaction.Transaction {
 }
 
 func TestGetTransactionByID(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	c := New("http://localhost:1984")
 	tx := createTransaction(t, c)
 	t.Run("found", func(t *testing.T) {
@@ -73,6 +74,7 @@ func TestGetTransactionByID(t *testing.T) {
 }
 
 func TestGetTransactionStatus(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	c := New("http://localhost:1984")
 	tx := createTransaction(t, c)
 	_, err := c.GetTransactionStatus(tx.ID)
@@ -80,6 +82,7 @@ func TestGetTransactionStatus(t *testing.T) {
 }
 
 func TestGetTransactionField(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	c := New("http://localhost:1984")
 	tx := createTransaction(t, c)
 	res, err := c.GetTransactionField(tx.ID, "owner")
@@ -88,6 +91,7 @@ func TestGetTransactionField(t *testing.T) {
 }
 
 func TestGetTransactionData(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	c := New("http://localhost:1984")
 	tx := createTransaction(t, c)
 	res, err := c.GetTransactionData(tx.ID)
@@ -96,6 +100,7 @@ func TestGetTransactionData(t *testing.T) {
 }
 
 func TestGetTransactionPrice(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	c := New("http://localhost:1984")
 	res, err := c.GetTransactionPrice(0, "")
 	assert.NoError(t, err)
@@ -104,6 +109,7 @@ func TestGetTransactionPrice(t *testing.T) {
 }
 
 func TestGetTransactionAnchor(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	c := New("http://localhost:1984")
 	res, err := c.GetTransactionAnchor()
 	assert.NoError(t, err)
@@ -111,6 +117,7 @@ func TestGetTransactionAnchor(t *testing.T) {
 }
 
 func TestSubmitTransaction(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	c := New("http://localhost:1984")
 	data := []byte("test")
 	tags := &[]tag.Tag{{Name: "test", Value: "test"}, {Name: "test", Value: "test"}, {Name: "test", Value: "test"}}

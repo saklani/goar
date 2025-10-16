@@ -39,6 +39,7 @@ func createTransaction(t *testing.T, w *Wallet) *transaction.Transaction {
 }
 
 func TestSignTransaction(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	w, err := FromPath("../test/signer.json", "http://localhost:1984")
 	assert.NoError(t, err)
 
@@ -54,6 +55,7 @@ func TestSignTransaction(t *testing.T) {
 }
 
 func TestSendTransaction(t *testing.T) {
+	t.Skip("Skipping test that requires local Arweave node at localhost:1984")
 	w, err := FromPath("../test/signer.json", "http://localhost:1984")
 	assert.NoError(t, err)
 

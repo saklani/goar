@@ -5,3 +5,4 @@ test-keyfile.json
 .idea
 vendor
 arweave.json
+coverage.out
